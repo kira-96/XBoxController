@@ -1,0 +1,12 @@
+﻿<Application
+    x:Class="XBoxController.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ViewModel="using:XBoxController.ViewModel"
+    RequestedTheme="Light">
+
+    <Application.Resources>
+        <ViewModel:ViewModelLocator x:Key="Locator" />
+    </Application.Resources>
+    
+</Application>
